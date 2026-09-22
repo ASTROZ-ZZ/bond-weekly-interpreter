@@ -1,0 +1,7 @@
+interface:
+  display_name: "债券周报解读"
+  short_description: "生成债券周报英文简报、支撑计算与带图演示文稿"
+  default_prompt: "使用 $bond-weekly-interpreter 解读这份固定收益周报，并生成英文简报、支撑计算，以及支持 15–20 分钟汇报的带图英文演示文稿；严格将 Skill 自带案例限定为格式、结构和解析参考，不得用作来源或网页失效时的替代材料。"
+
+policy:
+  allow_implicit_invocation: true
